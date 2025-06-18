@@ -1,3 +1,15 @@
+builds:
+  - id: pf
+    main: ./main.go
+    binary: pf
+    goos:
+      - windows
+      - linux
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+
 upx:
   - # Whether to enable it or not.
     #
