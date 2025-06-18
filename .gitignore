@@ -26,3 +26,6 @@ go.work.sum
 .env
 
 *.txt
+/pf-linux
+/pf-macos
+/pf-macos-arm64
