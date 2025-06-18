@@ -7,7 +7,6 @@ builds:
     goos:
       - windows
       - linux
-      - darwin
     goarch:
       - amd64
       - arm64
@@ -15,8 +14,6 @@ builds:
       - CGO_ENABLED=0
     ldflags:
       - -s -w -extldflags '-static'
-    ignore:
-      - goos/arch: darwin/arm64
 
 upx:
   - # Whether to enable it or not.
